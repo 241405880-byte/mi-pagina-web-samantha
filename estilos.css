@@ -1,0 +1,199 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff5f8;
+    color: #333;
+}
+
+header {
+    background-color: #d15894;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+nav {
+    background-color: #8f3d67;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+main {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+}
+
+section {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 15px;
+    box-shadow: 0 3px 10px #ccc;
+    text-align: center;
+}
+
+section h2 {
+    color: #b13f73;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+
+section p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+section img {
+    width: 80%;
+    max-width: 600px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    width: 280px;
+    padding: 25px;
+    background-color: #ffe5ef;
+    border-radius: 15px;
+}
+
+.tarjeta h3 {
+    color: #9d3564;
+    margin-bottom: 15px;
+}
+
+.tarjeta a {
+    display: inline-block;
+    background-color: #d15894;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.tarjeta a:hover {
+    background-color: #8f3d67;
+}
+
+.productos {
+    list-style-position: inside;
+    text-align: left;
+    max-width: 500px;
+    margin: 20px auto;
+    line-height: 2;
+}
+
+footer {
+    background-color: #8f3d67;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.card {
+      max-width: 200px;
+      margin: auto;
+      background-color: #ffffff;
+      border-radius: 5px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+      overflow: hidden;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: scale(1.03);
+    }
+
+    .card img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .card-content {
+      padding: 10px;
+    }
+
+    .card-title {
+      font-size: 1.5em;
+      color: #2e8b57;
+      margin-bottom: 05px;
+      text-align: center;
+    }
+
+    .card-description {
+      font-size: 1em;
+      color: #333;
+      text-align: justify;
+    }
+
+    form {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+form label {
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #8f3d67;
+}
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #e5a6c2;
+    border-radius: 8px;
+    font-size: 16px;
+}
+form textarea {
+    resize: vertical;
+}
+form button {
+    margin-top: 20px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #d15894;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+form button:hover {
+    background-color: #8f3d67;
+}

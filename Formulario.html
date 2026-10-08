@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario - Cremería Mimi</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+<header>
+    <h1>🛒 Cremería Mimi</h1>
+    <p>Formulario de pedido</p>
+</header>
+<nav>
+    <a href="index.html">Inicio</a>
+    <a href="abarrotes.html">Abarrotes</a>
+    <a href="quesos.html">Quesos</a>
+    <a href="refrescos.html">Refrescos</a>
+    <a href="formulario.html">Pedido</a>
+</nav>
+<main>
+    <section>
+        <h2>Realiza tu pedido</h2>
+        <form>
+            <label for="nombre">Nombre completo:</label>
+            <input type="text" id="nombre" name="nombre" 
+                   placeholder="Escribe tu nombre" required>
+            <label for="telefono">Teléfono:</label>
+            <input type="tel" id="telefono" name="telefono" 
+                   placeholder="Escribe tu teléfono" required>
+            <label for="correo">Correo electrónico:</label>
+            <input type="email" id="correo" name="correo" 
+                   placeholder="ejemplo@gmail.com">
+            <label for="producto">Producto:</label>
+            <select id="producto" name="producto" required>
+                <option value="">Selecciona un producto</option>
+                <option value="abarrotes">Abarrotes</option>
+                <option value="quesos">Quesos</option>
+                <option value="refrescos">Refrescos</option>
+            </select>
+            <label for="cantidad">Cantidad:</label>
+            <input type="number" id="cantidad" name="cantidad" 
+                   min="1" placeholder="Ejemplo: 2" required>
+            <label for="pedido">Escribe tu pedido:</label>
+            <textarea id="pedido" name="pedido" rows="5"
+                      placeholder="Escribe aquí los productos que deseas..."></textarea>
+            <label for="direccion">Dirección:</label>
+            <textarea id="direccion" name="direccion" rows="3"
+                      placeholder="Escribe tu dirección"></textarea>
+            <button type="submit">Enviar pedido</button>
+            <button type="reset">Limpiar formulario</button>
+        </form>
+    </section>
+</main>
+<footer>
+    <p>Mercado Municipal en 
+        Cremería Mimi</p>
+</footer>
+</body>
+</html>
